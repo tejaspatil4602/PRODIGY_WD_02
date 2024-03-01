@@ -1,0 +1,52 @@
+body {
+  font-family: "Arial", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  background-color: black;
+}
+
+.stopwatchcontainer {
+  text-align: center;
+  background-color: #fff;
+  padding: 30px 50px;
+  border: 2px dotted rgb(42, 38, 38);
+  box-shadow: 15px -15px 50px #250702, -10px 10px 10px gainsboro;
+  border-radius: 11px / 10px;
+}
+
+.heading {
+  font-size: 20px;
+  background-color: #261e1d;
+  color: #f2f5d0;
+  font-weight: bold;
+  border: 2px dotted rgb(196, 98, 98) ;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  box-shadow:  #9b2a10 4px 4px 10px ;
+  padding: 5px;
+}
+
+.time-display {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.controls button {
+  font-size: 1.2em;
+  background-color: rgb(48, 44, 44);
+  color: #f2f5d0;
+  margin: 5px;
+  border:2px solid #736efe;
+  border-radius: 80px / 100px;
+  padding: 8px 15px;
+  cursor: pointer;
+}
+
+.lap-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+}
